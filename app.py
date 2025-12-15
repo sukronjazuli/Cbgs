@@ -495,7 +495,7 @@ def main():
     st.caption(f"📊 {len(st.session_state.current_messages)} pesan")
     st.divider()
 
-    json_file = "medical_database_structured.json"
+    json_file = "medical_database_structured2.json"
 
     if not os.path.exists(json_file):
         st.error(f"❌ ERROR: File '{json_file}' tidak ditemukan.")
