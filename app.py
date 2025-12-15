@@ -347,7 +347,7 @@ def run_groq_rag(db, json_data: Dict, query: str) -> str:
     with st.spinner("🤖 AI Groq sedang menganalisis (super cepat!)..."):
         try:
             llm = ChatGroq(
-                model="moonshotai/kimi-k2-instruct",  # Model stabil Groq (gratis!)
+                model="moonshotai/kimi-k2-instruct-0905",  # Model stabil Groq (gratis!)
                 temperature=0.1,
                 max_tokens=1024
             )
